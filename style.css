@@ -61,7 +61,6 @@
 }
 .font-div{
     width: 30%;
-
 }
 .collapse{
     margin: 0px;
@@ -135,7 +134,6 @@
 .Training h6{
     color: yellow;
 }
-
 /* Resume end */
 /* Work start */
 .work-details h3{
@@ -172,8 +170,6 @@
 label{
     color: red;
 }
-
-
 /* Work End */
 /* Contact start */
 .contact-header{
@@ -227,4 +223,3 @@ label{
     color:#fff !important;
     cursor: pointer;
 }
-/*     corona virus */
