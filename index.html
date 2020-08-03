@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Port Folio Website</title>
-    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <!-- font awesome -->
@@ -17,10 +17,10 @@
     <header>
         <div class="container">
             <div class="row no-gutters">
-                <div class="col-lg-4 col-md-4 header1">
+                <div class="col-lg-4 header1">
                     <img src="image/portFolio (2).jpg" alt="" class="img-fluid">
                 </div>
-                <div class="col-lg-8 col-md-8 header2">
+                <div class="col-lg-8 header2">
                     <div class="d-flex flex-column">
                         <div class="bg-dark text-white header-padding">
                             <div class="header-content">
@@ -28,11 +28,19 @@
                                 <p>(Web Developer and Blogger)
                                 <p>
                             </div>
-                            <div class="d-flex flex-row justify-content-between align-items-center px-5">
-                                <div class="icons"><i class="fa fa-facebook"></i></div>
-                                <div class="icons"><i class="fa fa-linkedin"></i></div>
-                                <div class="icons"><i class="fa fa-twitter"></i></div>
-                                <div class="icons"><i class="fa fa-instagram"></i></div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                                    <div class="icons"><i class="fa fa-facebook"></i></div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                                    <div class="icons"><i class="fa fa-linkedin"></i></div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                                    <div class="icons"><i class="fa fa-twitter"></i></div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                                    <div class="icons"><i class="fa fa-instagram"></i></div>
+                                </div>
                             </div>
                         </div>
                         <div class="d-flex flex-row text-center text-white">
@@ -64,35 +72,48 @@
                         <h2>My Skills</h2>
                         <p>My web developing skills are given bellow:-)</p>
                     </div>
-                    <div class="skills card-body">
+
+                    <div class="skills card-body" style="background: green;">
                         <h4>HTML</h4>
                         <div class="progress mb-3" style="background-color: #969191;">
-                            <div class="progress-bar progress-bar-striped progres-animated bg-success"
-                                style="width: 100%;">
+                            <div class="progress-bar progress-bar-striped progres-animated"
+                                style="width: 90%;background-color:#00E8E8">
                             </div>
                         </div>
                         <h4>bootstrap</h4>
                         <div class="progress mb-3" style="background-color: #969191;">
-                            <div class="progress-bar progress-bar-striped progres-animated bg-primary"
-                                style="width: 90%;">
+                            <div class="progress-bar progress-bar-striped progres-animated"
+                                style="width: 90%; background-color:#00E8E8">
                             </div>
                         </div>
                         <h4>CSS</h4>
                         <div class="progress mb-3" style="background-color: #969191;">
-                            <div class="progress-bar progress-bar-striped progres-animated bg-secondary"
-                                style="width: 80%;">
+                            <div class="progress-bar progress-bar-striped progres-animated"
+                                style="width: 80%; background-color:#00E8E8">
                             </div>
                         </div>
                         <h4>JavaScript</h4>
                         <div class="progress mb-3" style="background-color: #969191;">
-                            <div class="progress-bar progress-bar-striped progres-animated bg-warning"
-                                style="width: 70%;">
+                            <div class="progress-bar progress-bar-striped progres-animated"
+                                style="width: 60%; background-color:yellow">
                             </div>
                         </div>
                         <h4>jQuery</h4>
                         <div class="progress mb-3" style="background-color: #969191;">
-                            <div class="progress-bar progress-bar-striped progres-animated bg-danger"
-                                style="width: 65%;">
+                            <div class="progress-bar progress-bar-striped progres-animated"
+                                style="width: 60%; background-color:yellow">
+                            </div>
+                        </div>
+                        <h4>Node.js</h4>
+                        <div class="progress mb-3" style="background-color: #969191;">
+                            <div class="progress-bar progress-bar-striped progres-animated"
+                                style="width: 50%; background-color:red">
+                            </div>
+                        </div>
+                        <h4>MongoDB</h4>
+                        <div class="progress mb-3" style="background-color: #969191;">
+                            <div class="progress-bar progress-bar-striped progres-animated"
+                                style="width: 90%; background-color:#00E8E8">
                             </div>
                         </div>
                     </div>
@@ -106,17 +127,61 @@
                         <h2>My Resume</h2>
                         <p>(My resume are given bellow please read it)</p>
                     </div>
-                    <div class="card-body">
-                        <div class="education">
-                            <h2>Educational Details</h2>
-                            <table border="1">
-                                <tr>
-                                    <th>EXAM/DEGREE</th>
-                                    <th>NAME OF INSTITUTE</th>
-                                    <th>UNIVERSITY/BOARD</th>
-                                    <th>PERCENTAGE</th>
-                                </tr>
+                    <div class="card-body" style="background-color: red;">
+                        <div class="objective my-4">
+                            <h3 class="my-4">Objective</h3>
+                            <p> To seek employment in a company as a Web Developer where profound knowledge of HTML5,
+                                CSS3, Bootstrap, JavaScript, Node.js, mongoDB and ability to effectively design,
+                                maintain, and manage enterprise level CMS solutions will be applied.</p>
+                        </div>
+                        <div class="fieldInterest">
+                            <h3>Field of Interests</h3>
+                            <p>Web Development</p>
+                            <p>Blogging</p>
+                            <p>Electronics Fields</p>
+                            <p>IoT fields</p>
+                        </div>
+                        <div class="education my-4">
+                            <h3 class="my-4">Educational Details</h3>
+                            <div class="table-responsive">
+                            <table class="table table-bordered table-hover text-center" id="myTable">
+                                <thead class="thead-dark font-weight-bold">
+                                    <tr>
+                                        <th scope="col">Exam/Degree</th>
+                                        <th scope="col">Board/Univercity</th>
+                                        <th scope="col">Passing Year</th>
+                                        <th scope="col">Percentage</th>
+                                    </tr>
+                                </thead>
+                                <tbody style="background-color: red; color: yellow; font-weight: bold;">
+
+                                    <tr>
+                                        <td>B.Tech(ECE)</td>
+                                        <td>AKTU</td>
+                                        <td>2020</td>
+                                        <td>85.2%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12th</td>
+                                        <td>UP</td>
+                                        <td>2016</td>
+                                        <td>65.4%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10th</td>
+                                        <td>UP</td>
+                                        <td>2014</td>
+                                        <td>83%</td>
+                                    </tr>
+                                </tbody>
                             </table>
+                        </div>
+                        </div>
+                        <div class="Training">
+                            <h3>Training</h3>
+                            <p>IoT=>Using Arduino </p>
+                            <p>IoT=>Using Raspberry Pi</p>
+                            <h6>FROM => CETPA INFOTECH PVT.LTD.NOIDA SECTOR 2 (An ISO 9001:2015 Certified Company)</h6>
                         </div>
                     </div>
                 </div>
@@ -127,94 +192,73 @@
                 <div class="card" style="border: none; border-radius:0%">
                     <div class="card-header" style="background: #00E8E8;">
                         <h2>My Portfolio</h2>
-                        <p>(There are given how much projects I have made)</p>
+                        <p>(There are given my projects details)</p>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body" style="background: #00E8E8;">
                         <div class="work-details">
-                            <h2>What have I build</h2>
+                            <h3>What have I build?</h3>
                             <p>I have made many type of projects some projects and his links are given bellow</p>
                         </div>
                         <div class="row">
                             <div class="col-lg-4 col-md-4">
-                                <div class="card">
+                                <div class="card projects">
                                     <div class="card-header">
-                                        <img src="image/car1.jpg" alt="" class="img-fluid img-thumbnail">
+                                        <img src="image/iot.jpg" alt="" class="img-fluid img-thumbnail">
                                     </div>
                                     <div class="card-body">
-                                        <h4>Car Dealership Website</h4>
+                                        <h5>My Personal Website</h5>
                                         <div class="card-detail">
-                                            <a href="#">Click on this link to see the Website</a>
+                                            <a href="https://technicalhari.github.io/myportfolio.github.io/">Click on
+                                                this link to see Website</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4">
-                                <div class="card">
+                                <div class="card projects">
                                     <div class="card-header">
-                                        <img src="image/car1.jpg" alt="" class="img-fluid img-thumbnail">
+                                        <img src="image/car1.jpg" alt="IoT" class="img-fluid img-thumbnail">
                                     </div>
                                     <div class="card-body">
-                                        <h4>Car Dealership Website</h4>
+                                        <h5>Car Dealership Website</h5>
                                         <div class="card-detail">
-                                            <a href="#">Click on this link to see the Website</a>
+                                            <a href="https://github.com/TECHNICALHARI/cardealer.github.io">Click on this
+                                                link to see Website</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4">
-                                <div class="card">
+                                <div class="card projects">
                                     <div class="card-header">
-                                        <img src="image/car1.jpg" alt="" class="img-fluid img-thumbnail">
+                                        <img src="image/corona1.jpg" alt="" class="img-fluid img-thumbnail">
                                     </div>
                                     <div class="card-body">
-                                        <h4>Car Dealership Website</h4>
+                                        <h5>Covid-19 Live Update,Symtoms and Prevention</h5>
                                         <div class="card-detail">
-                                            <a href="#">Click on this link to see the Website</a>
+                                            <a href="https://github.com/TECHNICALHARI">Click on this link to see
+                                                Website</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-4 col-md-4">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <img src="image/car1.jpg" alt="" class="img-fluid img-thumbnail">
-                                    </div>
-                                    <div class="card-body">
-                                        <h4>Car Dealership Website</h4>
-                                        <div class="card-detail">
-                                            <a href="#">Click on this link to see the Website</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <img src="image/car1.jpg" alt="" class="img-fluid img-thumbnail">
-                                    </div>
-                                    <div class="card-body">
-                                        <h4>Car Dealership Website</h4>
-                                        <div class="card-detail">
-                                            <a href="#">Click on this link to see the Website</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <img src="image/car1.jpg" alt="" class="img-fluid img-thumbnail">
-                                    </div>
-                                    <div class="card-body">
-                                        <h4>Car Dealership Website</h4>
-                                        <div class="card-detail">
-                                            <a href="#">Click on this link to see the Website</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="project_details">
+                            <h3>Project Details</h3>
+                        </div>
+                        <div class="project_content">
+                            <h3>Personal Portfolio Website</h3>
+                            <p> I have made my personal portfolio website. Where user can contact me for make the
+                                Website and here can also read my blog on most famous and new technology Internet of
+                                Things (IoT).</p>
+                            <br>
+                            <h3>Responsive Car Dealership Website</h3>
+                            <p>I have made responsive car dealership website where customers can buy the any type of car
+                                and can also compare the features with other car.</p>
+                            <br>
+                            <h3>All About Corona</h3>
+                            <p>I have made corona Live tracker app where you can track corona live cases in all over the
+                                world and also you will know here corona Symtoms and Preventions.</p>
                         </div>
                     </div>
                 </div>
@@ -229,42 +273,40 @@
                     </div>
                     <div class="card-body contact-header">
                         <div class="row">
-                            <div class="col-lg-4 col-md-4">
+                            <div
+                                class="col-lg-4 col-md-4 col-sm-10 col-10 mx-auto d-flex justify-content-center align-items-center">
                                 <div class="contact-details">
-                                    <h2><span><i class="fa fa-phone text-success"></i></span> My Contact details</h2>
-                                    <h5>Mobile Number: <span class="text-white" style="font-size: 20px;">
-                                            <p> 8859509277</p>
-                                        </span></h5>
-                                    <h5>Another Number: <span class="text-white" style="font-size: 20px;">
-                                            <p>6387629482</p>
-                                        </span></h5>
-                                    <h5>Email Id: <span class="text-white" style="font-size: 20px;">
-                                            <p>pandayhariom2898@gmail.com</p>
-                                        </span></h5>
-
+                                    <h3><span><i class="fa fa-phone text-success"></i></span> My Contact details</h3>
+                                    <h5>Mobile Number:</h5>
+                                    <p> 8859509277</p>
+                                    <h5>Another Number:</h5>
+                                    <p>6387629482</p>
+                                    <h5>Email Id:</h5>
+                                    <p>pandayhariom2898@gmail.com</p>
                                 </div>
                             </div>
-                            <div class="col-lg-8 col-md-8">
+                            <div
+                                class="col-lg-6 col-md-6 col-sm-10 col-10 mx-auto d-flex justify-content-center align-items-center">
                                 <div class="your-contact">
-                                    <h2><i class="fa fa-phon text-success"></i></span> Your Contact Details</h2>
-                                    <form action="">
+                                    <h3><i class="fa fa-phone text-success"></i></span> Your Contact Details</h3>
+                                    <form action="/" method="POST">
                                         <div class="form-group">
                                             <label for="user">Username:</label>
-                                            <input type="text" name="" id="username" class="form-control">
+                                            <input type="text" name="username" id="username" class="form-control">
                                             <span id="user" class="text-danger font-weight-bold"></span>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Mobile Number:</label>
-                                            <input type="text" name="" id="number" class="form-control">
+                                            <input type="text" name="number" id="number" class="form-control">
                                             <span id="monumber" class="text-danger font-weight-bold"></span>
                                         </div>
                                         <div class="form-group">
                                             <label for="user">Email Id:</label>
-                                            <input type="text" name="" id="email" class="form-control">
+                                            <input type="text" name="email" id="email" class="form-control">
                                             <span id="emailid" class="text-danger font-weight-bold"></span>
                                         </div>
-                                        <div id="submit">
-                                            <input type="submit" name="" id="submit" value="Submit" class="submit">
+                                        <div id="submitBtn">
+                                            <button type="submit" id="submit" class="submit btn">Submit</button>
                                         </div>
                                     </form>
                                 </div>
@@ -279,7 +321,6 @@
         <div class="container">
             <footer class="p-5 bg-dark text-center">
                 <button class="btn"><i class="fa fa-download fa-2x"></i></button>
-
             </footer>
         </div>
 
@@ -290,6 +331,11 @@
 
 
     <script>
+        //For Collapse
+        $('.font-div').click(function () {
+            $('.collapse').collapse('hide');
+        });
+        //End Collapse
         $(document).ready(function () {
             $('#submit').click(function () {
                 var username = $('#username').val();
@@ -323,29 +369,31 @@
                     $('#emailid').html('Please enter the email');
                     return false;
                 }
-               else if (email.indexOf('@') <= 0) {
+                else if (email.indexOf('@') <= 0) {
                     $('#emailid').html = "** Please write the correct email id";
                     return false;
 
                 }
-               else if ((email.charAt(email.length - 4) != '.') && (email.charAt(email.length - 3) != '.')) {
+                else if ((email.charAt(email.length - 4) != '.') && (email.charAt(email.length - 3) != '.')) {
                     $('#emailid').html = "** Domain name is invalid";
                     return false;
 
                 }
-               else if (email.charAt(email.length - 10) != '@') {
-                    $('#emailid').html= "** Please write the correct email company name";
+                else if (email.charAt(email.length - 10) != '@') {
+                    $('#emailid').html = "** Please write the correct email company name";
                     return false;
 
                 }
             });
         });
+
     </script>
+<!-- 
+    <script src="https://assets3.lottiefiles.com/datafiles/dNJ1QgOiCpNbFKD/data.json"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player src="https://assets3.lottiefiles.com/datafiles/dNJ1QgOiCpNbFKD/data.json" background="transparent"
+        speed="1" style="width: 300px; height: 300px; color: red;" loop controls autoplay></lottie-player> -->
 
-<script src="https://assets3.lottiefiles.com/datafiles/dNJ1QgOiCpNbFKD/data.json"></script>
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets3.lottiefiles.com/datafiles/dNJ1QgOiCpNbFKD/data.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px; color: red;"  loop controls autoplay></lottie-player>
 </body>
 
 </html>
